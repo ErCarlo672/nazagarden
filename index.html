@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NazaGarden — Vivero y centro de jardinería en Montequinto</title>
+  <meta name="description" content="Vivero y centro de jardinería en Montequinto, Dos Hermanas. Plantas de interior y exterior, árboles, flor de temporada, macetas y consejo de quien las cultiva. Desde 2009.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0f140f">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="NazaGarden — Plantas que se quedan a vivir">
+  <meta property="og:description" content="Vivero y centro de jardinería en Montequinto, Dos Hermanas. Desde 2009.">
+  <meta property="og:image" content="assets/foto/invernadero.webp">
+  <link rel="icon" href="favicon.svg?v=20261026d" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/fraunces-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/foto/monstera.webp" as="image">
+  <link rel="stylesheet" href="styles.css?v=20261026d">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "GardenStore",
+    "name": "NazaGarden",
+    "foundingDate": "2009",
+    "telephone": "+34954890079",
+    "address": { "@type": "PostalAddress", "streetAddress": "Ctra. Dos Hermanas a Montequinto, km 2,5", "addressLocality": "Dos Hermanas", "postalCode": "41704", "addressRegion": "Sevilla", "addressCountry": "ES" },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "09:00", "closes": "14:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "16:00", "closes": "20:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "09:00", "closes": "14:00" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <!-- Telón de entrada (se oculta por CSS a los 4,5 s aunque falle el JS) -->
+  <div class="telon" id="telon" aria-hidden="true">
+    <div class="telon-marca"><span>Naza</span><em>Garden</em></div>
+    <div class="telon-pie"><span>Vivero · Montequinto</span><span class="telon-cifra" id="telonCifra">000</span></div>
+    <i class="telon-linea"><b id="telonLinea"></b></i>
+  </div>
+
+  <div class="cursor" id="cursor" aria-hidden="true"><span class="cursor-punto"></span><span class="cursor-aro"><b id="cursorTexto"></b></span></div>
+
+  <header class="barra" id="barra">
+    <a class="logo" href="#inicio" aria-label="NazaGarden, inicio"><span>Naza</span><em>Garden</em></a>
+    <nav class="barra-nav" aria-label="Principal">
+      <a href="#casa">La casa</a>
+      <a href="#colecciones">Colecciones</a>
+      <a href="#almanaque">Almanaque</a>
+      <a href="#visita">Visítanos</a>
+    </nav>
+    <div class="barra-der">
+      <span class="estado" id="estadoBarra"><i></i><span>Abierto</span></span>
+      <a class="boton boton-claro boton-sm magnetico" href="https://wa.me/34657240591?text=Hola%20NazaGarden%2C%20quer%C3%ADa%20preguntaros%20por%20una%20planta" target="_blank" rel="noopener">Escríbenos</a>
+      <button class="hamburguesa" id="hamburguesa" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+    </div>
+  </header>
+  <div class="menu" id="menu" hidden>
+    <nav aria-label="Menú">
+      <a href="#casa"><small>01</small>La casa</a>
+      <a href="#colecciones"><small>02</small>Colecciones</a>
+      <a href="#almanaque"><small>03</small>Almanaque</a>
+      <a href="#visita"><small>04</small>Visítanos</a>
+    </nav>
+    <div class="menu-pie">
+      <a href="tel:+34954890079">954 89 00 79</a>
+      <a href="https://wa.me/34657240591" target="_blank" rel="noopener">WhatsApp 657 24 05 91</a>
+    </div>
+  </div>
+
+  <main id="contenido">
+    <!-- ================= PORTADA ================= -->
+    <section class="portada" id="inicio" aria-labelledby="titulo">
+      <div class="portada-meta">
+        <span>Vivero y centro de jardinería</span>
+        <span>Montequinto, Sevilla</span>
+        <span>Desde 2009</span>
+      </div>
+
+      <h1 class="portada-titulo" id="titulo">
+        <span class="linea"><span>Plantas que</span></span>
+        <span class="linea linea-sangria"><span><em>se quedan</em></span></span>
+        <span class="linea"><span>a vivir.</span></span>
+      </h1>
+
+      <div class="hoja" id="hoja" aria-hidden="true">
+        <div class="hoja-giro" id="hojaGiro">
+          <img class="hoja-sombra" src="assets/foto/monstera.webp" alt="">
+          <img class="hoja-img" src="assets/foto/monstera.webp" alt="">
+        </div>
+      </div>
+
+      <figure class="postal postal-a" data-velocidad="-0.18">
+        <img src="assets/foto/invernadero-s.webp" alt="Pasillo de un invernadero lleno de flores de temporada" width="720" height="538">
+        <figcaption>Invernadero · flor de temporada</figcaption>
+      </figure>
+      <figure class="postal postal-b" data-velocidad="-0.32">
+        <img src="assets/foto/kalanchoe-s.webp" alt="Kalanchoe de hojas redondas rojizas en maceta" width="720" height="540">
+        <figcaption>Kalanchoe thyrsiflora</figcaption>
+      </figure>
+
+      <div class="portada-pie">
+        <p class="portada-texto">Un vivero de los de antes en la carretera de Montequinto. Plantas sanas, barro, sustratos y alguien que te explica cómo cuidarlas.</p>
+        <a class="boton-redondo magnetico" href="#casa" data-cursor="Bajar">
+          <span>Entrar al<br>vivero</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16m0 0-6-6m6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- ================= MANIFIESTO ================= -->
+    <section class="manifiesto" id="manifiesto" aria-label="Quiénes somos">
+      <svg class="sello" viewBox="0 0 200 200" aria-hidden="true">
+        <defs><path id="circulo" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
+        <text><textPath href="#circulo">VIVERO EN MONTEQUINTO · DESDE 2009 · NAZAGARDEN · </textPath></text>
+        <path d="M86 128c0-30 14-46 34-50 0 30-14 46-34 50Zm0 0 18-24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+      </svg>
+      <p class="etiqueta">( La casa )</p>
+      <p class="manifiesto-texto" id="manifiestoTexto">Desde 2009 cultivamos, cuidamos y aconsejamos junto a la carretera de Montequinto. Aquí no se viene solo a comprar una planta: se viene a saber dónde ponerla, cuánto regarla y cómo hacer que dure muchos años.</p>
+      <dl class="cifras">
+        <div class="revela"><dt>Abrimos en</dt><dd>2009</dd></div>
+        <div class="revela"><dt>Abierto</dt><dd>7 <small>días</small></dd></div>
+        <div class="revela"><dt>Carretera de Montequinto</dt><dd>km 2,5</dd></div>
+      </dl>
+    </section>
+
+    <!-- ================= LA CASA (pasos fijos) ================= -->
+    <section class="casa" id="casa" aria-labelledby="casaTitulo">
+      <h2 class="visualmente-oculto" id="casaTitulo">Cómo trabajamos</h2>
+      <div class="casa-medios" aria-hidden="true">
+        <div class="casa-marco">
+          <img class="casa-img activa" src="assets/foto/invernadero.webp" alt="" data-paso="0">
+          <img class="casa-img" src="assets/foto/manos.webp" alt="" data-paso="1">
+          <img class="casa-img" src="assets/foto/macetas-cenital.webp" alt="" data-paso="2">
+        </div>
+        <div class="casa-indice"><span id="casaNum">01</span> / 03</div>
+      </div>
+      <div class="casa-pasos">
+        <article class="paso" data-paso="0">
+          <img class="paso-img" src="assets/foto/invernadero-s.webp" alt="Invernadero con mesas de flor de temporada" loading="lazy">
+          <p class="etiqueta">01 — Cultivo</p>
+          <h3>Plantas sanas,<br><em>revisadas una a una.</em></h3>
+          <p>Cada planta pasa por nuestras manos antes de llegar a la tuya: riego a su hora, trasplante cuando lo pide y revisión de hojas y raíces. Si algo no está bien, no sale del vivero.</p>
+        </article>
+        <article class="paso" data-paso="1">
+          <img class="paso-img" src="assets/foto/manos-s.webp" alt="Manos sujetando una planta joven con su cepellón" loading="lazy">
+          <p class="etiqueta">02 — Consejo</p>
+          <h3>Te contamos lo que<br><em>nadie pone en la etiqueta.</em></h3>
+          <p>Cuánta luz necesita de verdad, cada cuánto regar en pleno agosto y qué hacer si aparece el pulgón. Y si un día tu planta se pone rara, mándanos una foto por WhatsApp.</p>
+        </article>
+        <article class="paso" data-paso="2">
+          <img class="paso-img" src="assets/foto/macetas-cenital-s.webp" alt="Macetas de barro vistas desde arriba" loading="lazy">
+          <p class="etiqueta">03 — Todo lo demás</p>
+          <h3>Barro, sustrato<br><em>y todo lo que hace falta.</em></h3>
+          <p>Macetas de barro y cerámica, sustratos, abonos y tratamientos. Te decimos cuál y cuánto, para que no te lleves nada que no vayas a usar. Y aparcas en la puerta.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= COLECCIONES ================= -->
+    <section class="colecciones" id="colecciones" aria-labelledby="coleccionesTitulo">
+      <div class="colecciones-cabecera">
+        <p class="etiqueta">( Colecciones )</p>
+        <h2 id="coleccionesTitulo" class="titulo-grande revela">Seis maneras de<br><em>llenar tu casa de verde.</em></h2>
+      </div>
+      <ul class="lista" id="lista">
+        <li><a href="https://wa.me/34657240591?text=Hola%2C%20busco%20plantas%20de%20interior" target="_blank" rel="noopener" data-img="assets/foto/cinta-s.webp" data-cursor="Preguntar">
+          <span class="lista-num">01</span><span class="lista-nombre">Interior</span><span class="lista-desc">Potos, monsteras, ficus, calatheas</span><img src="assets/foto/cinta-s.webp" alt="" loading="lazy"><span class="lista-flecha" aria-hidden="true">↗</span></a></li>
+        <li><a href="https://wa.me/34657240591?text=Hola%2C%20busco%20flor%20de%20temporada" target="_blank" rel="noopener" data-img="assets/foto/tulipanes-s.webp" data-cursor="Preguntar">
+          <span class="lista-num">02</span><span class="lista-nombre">Flor de temporada</span><span class="lista-desc">Geranios, gitanillas, crisantemos</span><img src="assets/foto/tulipanes-s.webp" alt="" loading="lazy"><span class="lista-flecha" aria-hidden="true">↗</span></a></li>
+        <li><a href="https://wa.me/34657240591?text=Hola%2C%20busco%20%C3%A1rboles%20o%20frutales" target="_blank" rel="noopener" data-img="assets/foto/arbustos-s.webp" data-cursor="Preguntar">
+          <span class="lista-num">03</span><span class="lista-nombre">Árboles y frutales</span><span class="lista-desc">Olivos, naranjos, limoneros, setos</span><img src="assets/foto/arbustos-s.webp" alt="" loading="lazy"><span class="lista-flecha" aria-hidden="true">↗</span></a></li>
+        <li><a href="https://wa.me/34657240591?text=Hola%2C%20busco%20crasas%20o%20cactus" target="_blank" rel="noopener" data-img="assets/foto/sempervivum-s.webp" data-cursor="Preguntar">
+          <span class="lista-num">04</span><span class="lista-nombre">Crasas y cactus</span><span class="lista-desc">Para sol, olvidos y poco riego</span><img src="assets/foto/sempervivum-s.webp" alt="" loading="lazy"><span class="lista-flecha" aria-hidden="true">↗</span></a></li>
+        <li><a href="https://wa.me/34657240591?text=Hola%2C%20busco%20macetas" target="_blank" rel="noopener" data-img="assets/foto/macetas-cenital-s.webp" data-cursor="Preguntar">
+          <span class="lista-num">05</span><span class="lista-nombre">Macetas y barro</span><span class="lista-desc">Barro, cerámica, jardineras</span><img src="assets/foto/macetas-cenital-s.webp" alt="" loading="lazy"><span class="lista-flecha" aria-hidden="true">↗</span></a></li>
+        <li><a href="https://wa.me/34657240591?text=Hola%2C%20quer%C3%ADa%20encargar%20un%20ramo" target="_blank" rel="noopener" data-img="assets/foto/ramos-s.webp" data-cursor="Encargar">
+          <span class="lista-num">06</span><span class="lista-nombre">Ramos y centros</span><span class="lista-desc">Por encargo, con flor fresca</span><img src="assets/foto/ramos-s.webp" alt="" loading="lazy"><span class="lista-flecha" aria-hidden="true">↗</span></a></li>
+      </ul>
+      <div class="vista" id="vista" aria-hidden="true"><img id="vistaImg" src="assets/foto/cinta-s.webp" alt=""></div>
+    </section>
+
+    <!-- ================= CINTA DE NOMBRES ================= -->
+    <div class="cinta" aria-hidden="true">
+      <div class="cinta-pista" id="cintaPista">
+        <span>Monstera <i>✦</i> Olivo <i>✦</i> Buganvilla <i>✦</i> Jazmín <i>✦</i> Lavanda <i>✦</i> Limonero <i>✦</i> Gitanilla <i>✦</i> Potos <i>✦</i> Romero <i>✦</i> Helecho <i>✦</i> </span>
+        <span>Monstera <i>✦</i> Olivo <i>✦</i> Buganvilla <i>✦</i> Jazmín <i>✦</i> Lavanda <i>✦</i> Limonero <i>✦</i> Gitanilla <i>✦</i> Potos <i>✦</i> Romero <i>✦</i> Helecho <i>✦</i> </span>
+      </div>
+    </div>
+
+    <!-- ================= PASEO (galería horizontal) ================= -->
+    <section class="paseo" id="paseo" aria-labelledby="paseoTitulo">
+      <div class="paseo-fijo">
+        <div class="paseo-pista" id="paseoPista">
+          <div class="paseo-intro">
+            <p class="etiqueta">( Un paseo )</p>
+            <h2 id="paseoTitulo" class="titulo-grande">Date una vuelta<br><em>sin prisa.</em></h2>
+            <p>Mesas de flor, rincones de interior, barro apilado y un patio de árboles. Así se ve una mañana cualquiera en el vivero.</p>
+          </div>
+          <figure class="cuadro cuadro-alto"><div class="cuadro-marco"><img src="assets/foto/floristeria.webp" alt="Puesto de flores con cubos de rosas y ramos" loading="lazy"></div><figcaption><span>I</span> Flor cortada y ramos</figcaption></figure>
+          <figure class="cuadro cuadro-ancho cuadro-bajo"><div class="cuadro-marco"><img src="assets/foto/estante.webp" alt="Estante de madera con macetas de barro y plantas colgantes" loading="lazy"></div><figcaption><span>II</span> Rincones de interior</figcaption></figure>
+          <figure class="cuadro cuadro-medio"><div class="cuadro-marco"><img src="assets/foto/colgante.webp" alt="Maceta colgante con una suculenta de tallos largos" loading="lazy"></div><figcaption><span>III</span> Colgantes para el patio</figcaption></figure>
+          <figure class="cuadro cuadro-ancho"><div class="cuadro-marco"><img src="assets/foto/pared-plantas.webp" alt="Pared con macetas y hiedra colgando" loading="lazy"></div><figcaption><span>IV</span> Trepadoras y hiedras</figcaption></figure>
+          <figure class="cuadro cuadro-alto cuadro-bajo"><div class="cuadro-marco"><img src="assets/foto/suculenta.webp" alt="Echeveria gris azulada en primer plano" loading="lazy"></div><figcaption><span>V</span> Crasas de colección</figcaption></figure>
+          <a class="paseo-fin magnetico" href="#visita" data-cursor="Ir">
+            <span>Ven a<br><em>verlo en persona</em></span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m0 0-6-6m6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ALMANAQUE ================= -->
+    <section class="almanaque" id="almanaque" aria-labelledby="almanaqueTitulo">
+      <div class="almanaque-cabecera">
+        <p class="etiqueta">( Almanaque del jardín en Sevilla )</p>
+        <h2 id="almanaqueTitulo" class="visualmente-oculto">Qué plantar y qué hacer cada mes</h2>
+        <div class="almanaque-control">
+          <button type="button" class="flecha" id="mesAnterior" aria-label="Mes anterior">←</button>
+          <button type="button" class="flecha" id="mesSiguiente" aria-label="Mes siguiente">→</button>
+        </div>
+      </div>
+      <div class="almanaque-cuerpo">
+        <div class="almanaque-mes">
+          <span class="almanaque-num" id="almNum">10</span>
+          <p class="almanaque-nombre" id="almNombre" aria-live="polite">Octubre</p>
+          <p class="almanaque-estacion" id="almEstacion">Otoño</p>
+        </div>
+        <div class="almanaque-col">
+          <h3>Qué plantar</h3>
+          <ul id="almPlantar"><li>Crisantemos y ciclámenes</li><li>Tulipanes y narcisos</li><li>Árboles y arbustos</li></ul>
+        </div>
+        <div class="almanaque-col">
+          <h3>Qué hacer</h3>
+          <ul id="almHacer"><li>Reducir el riego</li><li>Meter en casa las tropicales</li><li>Último abonado del año</li></ul>
+        </div>
+        <blockquote class="almanaque-consejo" id="almConsejo">El otoño es el mejor momento para plantar árboles: llegan al verano con raíces fuertes.</blockquote>
+      </div>
+      <div class="meses" id="meses" role="tablist" aria-label="Meses"></div>
+    </section>
+
+    <!-- ================= VISITA ================= -->
+    <section class="visita" id="visita" aria-labelledby="visitaTitulo">
+      <div class="visita-info">
+        <p class="etiqueta">( Visítanos )</p>
+        <h2 id="visitaTitulo" class="titulo-grande revela">Ctra. Dos Hermanas<br><em>a Montequinto, km 2,5</em></h2>
+        <p class="visita-cp revela">41704 Dos Hermanas, Sevilla · Aparcamiento en la puerta</p>
+        <div class="estado-grande revela" id="estadoGrande"><i></i><span>Abierto ahora</span></div>
+        <table class="horario revela" id="horario">
+          <tr data-dias="1,2,3,4,5,6"><th>Lunes a sábado</th><td>9:00 – 14:00</td><td>16:00 – 20:00</td></tr>
+          <tr data-dias="0"><th>Domingos y festivos</th><td>9:00 – 14:00</td><td>Cerrado</td></tr>
+        </table>
+        <div class="visita-contacto revela">
+          <a href="tel:+34954890079"><small>Teléfono</small>954 89 00 79</a>
+          <a href="https://wa.me/34657240591" target="_blank" rel="noopener"><small>WhatsApp</small>657 24 05 91</a>
+        </div>
+        <div class="acciones revela">
+          <a class="boton boton-oscuro magnetico" href="https://www.google.com/maps/dir/?api=1&amp;destination=Vivero%20Nazagarden%2C%20Dos%20Hermanas" target="_blank" rel="noopener">Cómo llegar</a>
+          <a class="boton boton-linea magnetico" href="tel:+34954890079">Llamar</a>
+        </div>
+      </div>
+      <div class="arco revela">
+        <img class="arco-foto" src="assets/foto/arbustos.webp" alt="Campo de arbustos jóvenes en el vivero" loading="lazy">
+        <iframe title="Mapa de NazaGarden" data-src="https://www.google.com/maps?q=Vivero%20Nazagarden%2C%20Dos%20Hermanas&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    <!-- ================= PREGUNTAS ================= -->
+    <section class="preguntas" id="preguntas" aria-labelledby="preguntasTitulo">
+      <div class="preguntas-intro">
+        <p class="etiqueta">( Preguntas )</p>
+        <h2 id="preguntasTitulo" class="titulo-grande revela">Lo que más<br><em>nos preguntáis.</em></h2>
+      </div>
+      <div class="acordeon">
+        <details class="revela"><summary>¿Puedo consultaros si mi planta está enferma?</summary><p>Claro. Mándanos una foto por WhatsApp al 657 24 05 91 y cuéntanos dónde la tienes y cada cuánto la riegas. Te decimos qué le pasa y cómo tratarla.</p></details>
+        <details class="revela"><summary>¿Abrís los domingos?</summary><p>Sí, domingos y festivos por la mañana, de 9:00 a 14:00. De lunes a sábado abrimos de 9:00 a 14:00 y de 16:00 a 20:00.</p></details>
+        <details class="revela"><summary>¿Vendéis también a profesionales?</summary><p>Sí. Trabajamos con particulares, jardineros, paisajistas y empresas. Si necesitas cantidad, llámanos y lo preparamos.</p></details>
+        <details class="revela"><summary>¿Hacéis ramos y centros por encargo?</summary><p>Sí. Dinos para cuándo lo necesitas, el estilo y el presupuesto, y lo tenemos listo para recoger.</p></details>
+        <details class="revela"><summary>¿Qué plantas aguantan el verano de Sevilla?</summary><p>Para pleno sol van muy bien el olivo, la buganvilla, la lavanda, el romero, el jazmín y las gitanillas. En maceta, mejor barro que plástico y riego al caer la tarde.</p></details>
+        <details class="revela"><summary>¿Qué sustrato compro para mis macetas?</summary><p>Para la mayoría vale un universal de calidad; crasas y cactus piden uno con más drenaje, y hortensias o gardenias, uno ácido. Pregúntanos en el mostrador y te lo explicamos.</p></details>
+      </div>
+    </section>
+
+    <!-- ================= CIERRE ================= -->
+    <section class="cierre" id="cierre" aria-labelledby="cierreTitulo">
+      <img class="cierre-fondo" src="assets/foto/helecho-oscuro.webp" alt="" aria-hidden="true" loading="lazy">
+      <div class="cierre-contenido">
+        <p class="etiqueta">( Escríbenos )</p>
+        <h2 id="cierreTitulo" class="cierre-titulo">
+          <span class="linea"><span>¿Buscamos</span></span>
+          <span class="linea"><span><em>tu planta?</em></span></span>
+        </h2>
+        <p class="revela">Cuéntanos qué buscas y dónde va a vivir. Te decimos si la tenemos y cómo cuidarla.</p>
+        <a class="boton-redondo boton-redondo-grande magnetico revela" href="https://wa.me/34657240591?text=Hola%20NazaGarden%2C%20quer%C3%ADa%20preguntaros%20por%20una%20planta" target="_blank" rel="noopener" data-cursor="WhatsApp">
+          <span>Escribir por<br>WhatsApp</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7m0 0H8m9 0v9" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="pie-columnas">
+      <div><h4>Visita</h4><p>Ctra. Dos Hermanas a Montequinto, km 2,5<br>41704 Dos Hermanas, Sevilla</p></div>
+      <div><h4>Horario</h4><p>Lunes a sábado 9:00 – 14:00 y 16:00 – 20:00<br>Domingos y festivos 9:00 – 14:00</p></div>
+      <div><h4>Contacto</h4><p><a href="tel:+34954890079">954 89 00 79</a><br><a href="https://wa.me/34657240591" target="_blank" rel="noopener">WhatsApp 657 24 05 91</a></p></div>
+      <div><h4>Navegar</h4><p><a href="#casa">La casa</a><br><a href="#colecciones">Colecciones</a><br><a href="#almanaque">Almanaque</a></p></div>
+    </div>
+    <p class="pie-marca" id="pieMarca" aria-hidden="true"><span>N</span><span>a</span><span>z</span><span>a</span><em><span>G</span><span>a</span><span>r</span><span>d</span><span>e</span><span>n</span></em></p>
+    <div class="pie-legal">
+      <span>© <span id="anio">2026</span> Nazagarden S.L.</span>
+      <a href="legal.html">Aviso legal, privacidad y créditos</a>
+      <span>Diseñado por <a href="https://ercarlo672.github.io" target="_blank" rel="noopener">Carlos Salguero</a></span>
+    </div>
+  </footer>
+
+  <a class="whats" id="whats" href="https://wa.me/34657240591?text=Hola%20NazaGarden" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.4L3 21l4.7-1.2A9 9 0 1 0 12 3Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M9 8.5c0 3.6 2.9 6.5 6.5 6.5l1-1.6-2-1-1 .8c-1-.4-1.8-1.2-2.2-2.2l.8-1-1-2Z" fill="currentColor"/></svg>
+    <span>Escríbenos</span>
+  </a>
+
+  <script src="assets/lib/gsap.min.js?v=20261026d" defer></script>
+  <script src="assets/lib/ScrollTrigger.min.js?v=20261026d" defer></script>
+  <script src="main.js?v=20261026d" defer></script>
+</body>
+</html>
